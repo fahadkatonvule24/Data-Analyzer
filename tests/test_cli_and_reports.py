@@ -140,3 +140,39 @@ def test_data_command(samples, tmp_path):
     html = (tmp_path / "data_report.html").read_text(encoding="utf-8")
     assert "Anomalous rows" in html and "<svg" in html
     assert len(pd.read_csv(tmp_path / "cleaned_data.csv")) == 162
+
+
+def test_output_never_crashes_on_legacy_windows_encodings(monkeypatch):
+    """Regression (found by Windows CI): cp1252 output cannot encode '→' or '●'."""
+    import io
+    import sys
+
+    from loganalyzer.cli import safe_streams
+
+    raw = io.BytesIO()
+    legacy = io.TextIOWrapper(raw, encoding="cp1252")
+    monkeypatch.setattr(sys, "stdout", legacy)
+    safe_streams()
+    legacy.write("09:00  →  10:00 · ● 3 high · ✓")
+    legacy.flush()
+    # Known symbols become readable ASCII; cp1252 keeps '·'; anything else degrades to '?'.
+    assert raw.getvalue() == b"09:00  ->  10:00 \xb7 * 3 high \xb7 ?"
+
+
+def test_logs_command_survives_a_cp1252_pipe(samples, tmp_path):
+    """End to end: the real CLI, stdout encoded as cp1252 (what Windows uses for redirected output)."""
+    import os
+    import subprocess
+    import sys
+
+    env = {**os.environ, "PYTHONIOENCODING": "cp1252", "PYTHONUTF8": "0"}
+    result = subprocess.run(
+        [sys.executable, "-m", "loganalyzer.cli", "logs", str(samples / "auth.log"),
+         "--year", "2026", "-o", str(tmp_path)],
+        capture_output=True,
+        env=env,
+    )  # fmt: skip
+    output = result.stdout.decode("cp1252")
+    assert result.returncode == EXIT_OK, result.stderr.decode("cp1252", errors="replace")
+    assert "  ->  " in output
+    assert "* " in output

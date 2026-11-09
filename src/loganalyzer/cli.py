@@ -9,6 +9,7 @@ loganalyzer data measurements.csv                  # general dataset profiling /
 from __future__ import annotations
 
 import argparse
+import codecs
 import json
 import sys
 from collections.abc import Sequence
@@ -113,12 +114,30 @@ def build_parser() -> argparse.ArgumentParser:
     return parser
 
 
+ASCII_FALLBACK = {"→": "->", "●": "*", "≥": ">=", "σ": " sd", "—": "-", "·": "-", "•": "*"}
+
+
+def _ascii_fallback(error: UnicodeError) -> tuple[str, int]:
+    if not isinstance(error, UnicodeEncodeError):
+        raise error
+    chunk = error.object[error.start : error.end]
+    return "".join(ASCII_FALLBACK.get(ch, "?") for ch in chunk), error.end
+
+
+codecs.register_error("loganalyzer.ascii_fallback", _ascii_fallback)
+
+
 def safe_streams() -> None:
-    """Never crash on output: legacy Windows consoles (cp1252) cannot encode characters like '→'."""
+    """Never crash on output that the stream's encoding cannot represent.
+
+    On Windows with Python < 3.15, output redirected to a file or pipe (`loganalyzer logs
+    auth.log > out.txt`, CI) is encoded as cp1252, which has no '→' or '●'. Non-UTF-8
+    stdout/stderr get an error handler that prints readable ASCII ('->', '*') instead of raising.
+    """
     for stream in (sys.stdout, sys.stderr):
         encoding = (getattr(stream, "encoding", None) or "").lower().replace("-", "")
         if encoding and encoding != "utf8" and hasattr(stream, "reconfigure"):
-            stream.reconfigure(errors="replace")
+            stream.reconfigure(errors="loganalyzer.ascii_fallback")
 
 
 def main(argv: Sequence[str] | None = None) -> int:
