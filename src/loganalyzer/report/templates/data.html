@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% block title %}Data report · {{ r.source.name }}{% endblock %}
+{% macro fmt(v) %}{% if v is number and v != v %}—{% elif v is number %}{{ "{:,.2f}".format(v) if v is float else "{:,}".format(v) }}{% elif v is none %}—{% else %}{{ v }}{% endif %}{% endmacro %}
+{% block body %}
+<header class="top">
+  <div>
+    <p class="eyebrow">Log Analyzer · Data report</p>
+    <h1>{{ r.source.name }}</h1>
+  </div>
+  <div class="meta">
+    <div>{{ r.raw_shape[0] | num }} rows × {{ r.raw_shape[1] }} columns as loaded</div>
+    <div>Generated {{ generated_at | dt("%d %b %Y %H:%M") }}</div>
+  </div>
+</header>
+
+<div class="kpis">
+  <div class="kpi"><div class="label">Rows after cleaning</div><div class="value">{{ r.data | length | num }}</div>
+    <div class="note">{{ r.raw_shape[0] - (r.data | length) }} removed</div></div>
+  <div class="kpi"><div class="label">Columns</div><div class="value">{{ r.data.columns | length }}</div>
+    <div class="note">{{ r.feature_columns | length }} numeric features modelled</div></div>
+  <div class="kpi"><div class="label">Missing cells</div><div class="value">{{ "%.1f" | format(r.missing_pct) }}%</div>
+    <div class="note">after cleaning</div></div>
+  <div class="kpi"><div class="label">Anomalous rows</div><div class="value">{{ r.anomaly_count }}</div>
+    <div class="note">Isolation Forest{% if r.k %} · {{ r.k }} clusters{% endif %}</div></div>
+</div>
+
+{% if r.notes %}
+<section class="card">
+  <h2>Cleaning log</h2>
+  <ul>{% for n in r.notes %}<li>{{ n }}</li>{% endfor %}</ul>
+</section>
+{% endif %}
+
+<section class="card">
+  <h2>Column profile</h2>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>Column</th><th>Type</th><th class="num">Missing</th><th class="num">Unique</th><th class="num">Mean</th><th class="num">Std</th><th class="num">Min</th><th class="num">Median</th><th class="num">Max</th><th>Most common</th></tr></thead>
+    <tbody>
+    {% for c in r.profile %}
+    <tr>
+      <td><strong>{{ c.name }}</strong></td><td><code>{{ c.dtype }}</code></td>
+      <td class="num">{{ c.missing | num }}{% if c.missing %} ({{ "%.1f" | format(c.missing_pct) }}%){% endif %}</td>
+      <td class="num">{{ c.unique | num }}</td>
+      <td class="num">{{ fmt(c.mean) }}</td><td class="num">{{ fmt(c.std) }}</td><td class="num">{{ fmt(c.min) }}</td>
+      <td class="num">{{ fmt(c.median) }}</td><td class="num">{{ fmt(c.max) }}</td><td>{{ c.top or "—" }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+</section>
+
+{% if r.histograms %}
+<section class="card">
+  <h2>Distributions</h2>
+  <p class="sub">Histograms of the numeric features (20 bins). Hover a bin for its range and count.</p>
+  <div class="grid-2" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr))">
+    {% for name, chart in r.histograms %}<div><div class="label" style="font-weight:600; margin-bottom:4px">{{ name }}</div>{{ chart }}</div>{% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if r.anomaly_count %}
+<section class="card">
+  <h2>Anomalous rows</h2>
+  <p class="sub">Highest Isolation Forest scores first. “Why” lists the features furthest from the mean, in standard deviations. Showing the top {{ r.anomalies | length }} of {{ r.anomaly_count }}.</p>
+  <div class="table-scroll">
+  <table>
+    <thead><tr>{% for col in r.anomalies.columns %}<th{% if col != "why" %} class="num"{% endif %}>{{ col | replace("_", " ") }}</th>{% endfor %}</tr></thead>
+    <tbody>
+    {% for row in r.anomalies.to_dict("records") %}
+    <tr>{% for col in r.anomalies.columns %}<td{% if col != "why" %} class="num"{% else %} style="white-space: nowrap"{% endif %}>{{ fmt(row[col]) }}</td>{% endfor %}</tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+</section>
+{% endif %}
+
+{% if r.scatter or r.heatmap %}
+<section class="grid-2">
+  {% if r.scatter %}
+  <div class="card">
+    <h2>Rows in PCA space</h2>
+    <p class="sub"><i class="key" style="background: var(--alert)"></i>anomalous row · <i class="key" style="background: var(--series)"></i>normal row</p>
+    {{ r.scatter }}
+  </div>
+  {% endif %}
+  {% if r.heatmap %}
+  <div class="card">
+    <h2>Correlation</h2>
+    <p class="sub">Pearson r between numeric features; blue = negative, red = positive.</p>
+    {{ r.heatmap }}
+  </div>
+  {% endif %}
+</section>
+{% endif %}
+
+{% if r.clusters is not none %}
+<section class="card">
+  <h2>Segments</h2>
+  <p class="sub">K-Means with k = {{ r.k }}, chosen by the best silhouette score ({{ "%.2f" | format(r.silhouette) }}) among k = 2–6. Values are cluster means.</p>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>Cluster</th>{% for col in r.clusters.columns %}<th class="num">{{ col }}</th>{% endfor %}</tr></thead>
+    <tbody>
+    {% for row in r.clusters.reset_index().to_dict("records") %}
+    <tr><td>{{ row["cluster"] }}</td>{% for col in r.clusters.columns %}<td class="num">{{ fmt(row[col]) }}</td>{% endfor %}</tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+</section>
+{% endif %}
+{% endblock %}

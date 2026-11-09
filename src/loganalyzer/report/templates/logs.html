@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% block title %}Security report · {{ source_names }}{% endblock %}
+{% block body %}
+{% set tr = a.time_range %}
+<header class="top">
+  <div>
+    <p class="eyebrow">Log Analyzer · Security report</p>
+    <h1>{{ source_names }}</h1>
+  </div>
+  <div class="meta">
+    <div>{{ a.log_format.description }}</div>
+    <div>{{ tr[0] | dt("%d %b %Y %H:%M") }} → {{ tr[1] | dt("%d %b %Y %H:%M") }}</div>
+    <div>Generated {{ a.generated_at | dt("%d %b %Y %H:%M") }}</div>
+  </div>
+</header>
+
+<div class="kpis">
+  <div class="kpi">
+    <div class="label">Findings</div>
+    <div class="value">{{ total_findings }}</div>
+    {% if total_findings %}
+    <div class="segbar" role="img" aria-label="{% for s, n in severity_counts if n %}{{ n }} {{ s.label }}{{ ', ' if not loop.last }}{% endfor %}">
+      {% for s, n in severity_counts if n %}<span class="c-{{ s.label }}" style="flex: {{ n }}" title="{{ n }} {{ s.label }}"></span>{% endfor %}
+    </div>
+    <div class="legend">
+      {% for s, n in severity_counts if n %}<span><i class="c-{{ s.label }}"></i>{{ n }} {{ s.label }}</span>{% endfor %}
+    </div>
+    {% else %}
+    <div class="note">Nothing crossed a detection threshold</div>
+    {% endif %}
+  </div>
+  <div class="kpi">
+    <div class="label">Events analysed</div>
+    <div class="value">{{ a.events | length | num }}</div>
+    <div class="note">{{ a.total_lines | num }} lines · {{ "%.1f" | format(a.parse_rate * 100) }}% parsed</div>
+  </div>
+  <div class="kpi">
+    <div class="label">Unique source IPs</div>
+    <div class="value">{{ a.unique_ips | num }}</div>
+    <div class="note">{{ top_ips.rows | selectattr("findings") | list | length }} of the top {{ top_ips.rows | length }} have findings</div>
+  </div>
+  <div class="kpi">
+    <div class="label">Activity spikes</div>
+    <div class="value">{{ timeline.spikes }}</div>
+    <div class="note">Bursts of {{ timeline.unit }} (robust z &gt; {{ a.config.spike_z }} per {{ a.config.spike_bucket }})</div>
+  </div>
+</div>
+
+<section class="card">
+  <h2>Findings</h2>
+  <p class="sub">Sorted by severity, then time. Rules are mapped to MITRE ATT&amp;CK techniques; expand a row for the raw log lines behind it.</p>
+  {% if a.findings %}
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>Severity</th><th>Finding</th><th>Source</th><th class="num">Events</th><th>First seen</th><th>ATT&amp;CK</th></tr></thead>
+    <tbody>
+    {% for f in a.findings %}
+    <tr>
+      <td><span class="sev"><i class="c-{{ f.severity.label }}"></i>{{ f.severity.label | capitalize }}</span></td>
+      <td>
+        <div class="finding-title">{{ f.title }}</div>
+        <div class="finding-desc">{{ f.description }}</div>
+        {% if f.evidence %}
+        <details><summary>Evidence ({{ f.evidence | length }} line{{ "s" if f.evidence | length != 1 }})</summary>
+          <pre class="evidence">{{ f.evidence | join("\n") }}</pre>
+        </details>
+        {% endif %}
+      </td>
+      <td class="mono">{{ f.source_ip or (f.user and "user " ~ f.user) or "—" }}</td>
+      <td class="num">{{ f.event_count | num }}</td>
+      <td class="when">{{ f.first_seen | dt("%d %b %H:%M:%S") }}</td>
+      <td>{% if f.mitre %}<a href="{{ f.mitre_url }}" target="_blank" rel="noopener">{{ f.mitre }}</a>{% else %}—{% endif %}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  {% else %}
+  <p class="empty">No findings. Every detector ran; none crossed its threshold.</p>
+  {% endif %}
+</section>
+
+{% if timeline.svg %}
+<section class="card">
+  <h2>{{ timeline.unit | capitalize }} over time</h2>
+  <p class="sub">Per {{ timeline.bucket }}-minute bucket. Hover a column for exact counts.</p>
+  <div class="chart-legend">
+    <span><i class="key" style="background: var(--series)"></i>{{ timeline.unit | capitalize }}</span>
+    <span><i class="key" style="background: var(--alert)"></i>Contains a detected spike</span>
+  </div>
+  {{ timeline.svg }}
+</section>
+{% endif %}
+
+<section class="grid-2">
+  <div class="card">
+    <h2>Top source IPs</h2>
+    <p class="sub">By event count. <i class="key" style="background: var(--alert)"></i>has at least one finding · <i class="key" style="background: var(--series)"></i>no finding</p>
+    {{ top_ips.svg }}
+  </div>
+  <div class="card">
+    <h2>{{ breakdown.title }}</h2>
+    <p class="sub">Count of {{ breakdown.unit }}.</p>
+    {{ breakdown.svg }}
+  </div>
+</section>
+
+<section class="card">
+  <details>
+    <summary>Detection thresholds used for this run</summary>
+    <div class="table-scroll" style="margin-top: 10px">
+    <table>
+      <thead><tr><th>Setting</th><th>Value</th></tr></thead>
+      <tbody>{% for k, v in config_rows %}<tr><td><code>{{ k }}</code></td><td>{{ v }}</td></tr>{% endfor %}</tbody>
+    </table>
+    </div>
+  </details>
+</section>
+{% endblock %}
