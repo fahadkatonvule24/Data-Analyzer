@@ -25,3 +25,7 @@ analysis_results/
 .idea/
 .DS_Store
 Thumbs.db
+
+# outputs from the README quick-start commands
+/web/
+/data/

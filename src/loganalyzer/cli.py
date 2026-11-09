@@ -113,7 +113,16 @@ def build_parser() -> argparse.ArgumentParser:
     return parser
 
 
+def safe_streams() -> None:
+    """Never crash on output: legacy Windows consoles (cp1252) cannot encode characters like '→'."""
+    for stream in (sys.stdout, sys.stderr):
+        encoding = (getattr(stream, "encoding", None) or "").lower().replace("-", "")
+        if encoding and encoding != "utf8" and hasattr(stream, "reconfigure"):
+            stream.reconfigure(errors="replace")
+
+
 def main(argv: Sequence[str] | None = None) -> int:
+    safe_streams()
     args = build_parser().parse_args(argv)
     console = Console(highlight=False)
     errors = Console(stderr=True, highlight=False, soft_wrap=True)
